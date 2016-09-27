@@ -6,6 +6,6 @@ public interface InputReader {
 
 	boolean isCompleted();
 
-	List<Row> read();
+	List<Data> read();
 
 }

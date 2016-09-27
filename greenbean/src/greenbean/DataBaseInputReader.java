@@ -14,7 +14,7 @@ public class DataBaseInputReader implements InputReader {
 	}
 
 	@Override
-	public List<Row> read() {
+	public List<Data> read() {
 		return null;
 	}
 

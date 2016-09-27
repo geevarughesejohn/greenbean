@@ -22,7 +22,7 @@ public class Executer {
 	public void execute() {
 
 		while (inputReader.isCompleted()) {
-			List<Row> rows = inputReader.read();
+			List<Data> rows = inputReader.read();
 			for (Processor processor : processors) {
 				rows = processor.process(rows);
 			}

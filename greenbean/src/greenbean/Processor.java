@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface Processor {
 
-	List<Row> process(List<Row> rows);
+	List<Data> process(List<Data> rows);
 
 }

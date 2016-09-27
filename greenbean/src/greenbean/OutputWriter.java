@@ -4,7 +4,7 @@ import java.util.List;
 
 public class OutputWriter {
 
-	public void write(List<Row> rows) {
+	public void write(List<Data> rows) {
 		// TODO Auto-generated method stub
 		
 	}

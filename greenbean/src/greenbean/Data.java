@@ -1,5 +1,5 @@
 package greenbean;
 
-public interface Row {
+public interface Data {
 
 }

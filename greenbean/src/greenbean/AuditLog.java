@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface AuditLog {
 
-	void log(List<Row> rows);
+	void log(List<Data> rows);
 
 }
