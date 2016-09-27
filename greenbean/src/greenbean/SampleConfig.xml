@@ -1,0 +1,41 @@
+<configurations>
+	<configuration>
+
+		<reader>
+			<database datasourec="">
+				<table name="">
+					<columns>
+						<column name=""></column>
+					</columns>
+				</table>
+			</database>
+		</reader>
+
+		<writer>
+
+			<database datasourec="">
+				<table name="">
+					<columnmapping>
+						<column name="" mapedname=""></column>
+					</columnmapping>
+				</table>
+			</database>
+
+			<textfile path="">
+				<delimiter column="" row=""></delimiter>
+			</textfile>
+
+			<excel path="">
+				<sheet name="">
+					<columnmapping>
+						<column name="" mapedname=""></column>
+					</columnmapping>
+				</sheet>
+			</excel>
+
+		</writer>
+
+
+
+	</configuration>
+</configurations>
