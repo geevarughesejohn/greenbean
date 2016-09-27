@@ -5,7 +5,7 @@ import java.util.List;
 public class DataBaseInputReader implements InputReader {
 
 	public DataBaseInputReader(
-			DataBaseInputReaderConfiguration baseInputReaderConfiguration) {
+			DataBaseRWConfiguration baseInputReaderConfiguration) {
 	}
 
 	@Override
