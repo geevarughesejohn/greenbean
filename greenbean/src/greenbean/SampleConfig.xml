@@ -1,41 +1,42 @@
-<configurations>
-	<configuration>
+<redawrite id="" deletesource="true" order=1>
+	<source>
+		<databasetable datasource="" tablename="">
+			<columns>
+				<column name=""></column>
+			</columns>
+		</databasetable>
+	</source>
+	<destinations>
 
-		<reader>
-			<database datasourec="">
-				<table name="">
-					<columns>
-						<column name=""></column>
-					</columns>
-				</table>
-			</database>
-		</reader>
+		<destination>
+			<databasetable datasource="" tablename="">
 
-		<writer>
+			</databasetable>
+		</destination>
 
-			<database datasourec="">
-				<table name="">
-					<columnmapping>
-						<column name="" mapedname=""></column>
-					</columnmapping>
-				</table>
-			</database>
-
-			<textfile path="">
+		<destination>
+			<delimitertextfile path="">
 				<delimiter column="" row=""></delimiter>
-			</textfile>
+			</delimitertextfile>
+		</destination>
 
-			<excel path="">
-				<sheet name="">
-					<columnmapping>
-						<column name="" mapedname=""></column>
-					</columnmapping>
-				</sheet>
-			</excel>
+		<destination>
+			<excelsheet path="" sheet="">
+				<columnmapping>
+					<column name="" mapedname=""></column>
+				</columnmapping>
+			</excelsheet>
+		</destination>
 
-		</writer>
+	</destinations>
+</redawrite>
 
+<rederwriter>
+	<readers>
+		<reader id="databasetable" class=""></reader>
+	</readers>
 
-
-	</configuration>
-</configurations>
+	<writers>
+		<writer id="databasetable" class=""></writer>
+	</writers>
+</rederwriter>
